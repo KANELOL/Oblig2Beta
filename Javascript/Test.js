@@ -15,10 +15,10 @@ QUnit.test( "Whazzah!", function( assert ) {
      assert.equal(result, numbers.length = numbers.length);
  });
   QUnit.test( "Endre en stolpe", function( assert ) {
-  inputValue = 7;
+  inputValue = 10;
   endrStolpe(2);
   const result = numbers;
- assert.deepEqual( result, numbers = [7, 7, 1, 5, 8]);
+ assert.deepEqual( result, numbers = [7, 10, 1, 5, 8]);
 });
 
 QUnit.test( "Legge til en stolpe", function( assert ) {
